@@ -106,7 +106,7 @@ h6 {
 .page-header h2 {
   font-size: 56px;
   font-weight: 500;
-  color: #fff;
+  color: rgb(27 25 25 / 80%);
   font-family: var(--font-secondary);
 }
 
@@ -117,7 +117,7 @@ h6 {
 }
 
 .page-header p {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgb(27 25 25 / 80%);
 }
 
 .page-header .cta-btn {
@@ -582,6 +582,9 @@ h6 {
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+.about {
+  color: rgb(27 25 25 / 80%);
+}
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
@@ -1134,7 +1137,7 @@ h6 {
   border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
-  background-color: var(--color-secondary);
+  /* background-color: var(--color-secondary); */
   border: 1px solid #2e3133;
   color: #fff;
 }
@@ -1183,22 +1186,21 @@ h6 {
   color: rgb(27 25 25 / 80%);
 }
 
-.hero h2 {
-  margin: 0 0 10px 0;
-  font-size: 38px;
-  font-weight: 700;
-  color: #fff;
+.hero h1 {
+  font-size: 56px;
+  font-weight: 500;
+  color: rgb(27 25 25 / 80%);
   font-family: var(--font-secondary);
 }
 
-.hero h2 span {
+.hero h1 span {
   position: relative;
   z-index: 1;
   padding: 0 5px;
   display: inline-block;
 }
 
-.hero h2 span:before {
+.hero h1 span:before {
   content: "";
   position: absolute;
   height: 50%;
