@@ -948,12 +948,13 @@ h6 {
 # Services Section
 --------------------------------------------------------------*/
 .services .service-item {
-  padding: 50px 30px;
+  padding: 30px 20px;
   transition: all ease-in-out 0.4s;
   background: var(--color-secondary);
   height: 100%;
   overflow: hidden;
   z-index: 1;
+  width: 100%;
 }
 
 .services .service-item:before {
